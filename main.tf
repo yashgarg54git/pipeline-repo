@@ -8,6 +8,6 @@ provider "azurerm" {
 
 module "rg" {
     source = "./modules/rg"
-    rg_name = sonu
+    rg_name = "sonu"
   
 }
