@@ -11,3 +11,9 @@ module "rg" {
     rg_name = "sonu"
   
 }
+
+module "rg1" {
+    source = "./modules/rg"
+    rg_name = "monu"
+  
+}
