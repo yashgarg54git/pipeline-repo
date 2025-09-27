@@ -35,4 +35,5 @@ jobs:
 
       - name: Terraform Destroy (only on main branch push)
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        run: terraform apply -input=false tfplan
+        run: terraform destroy -auto-approve -input=false
+
