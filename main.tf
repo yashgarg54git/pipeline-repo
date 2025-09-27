@@ -12,15 +12,21 @@ module "rg" {
   
 }
 
-module "rg1" {
-    source = "./modules/rg"
-    rg_name = "monu"
+# module "rg1" {
+#     source = "./modules/rg"
+#     rg_name = "monu"
   
-}
+# }
 
-module "rg2" {
+# module "rg2" {
+#     source = "./modules/rg"
+#     rg_name = "gonu"
+  
+# }
+
+module "rg3" {
     source = "./modules/rg"
-    rg_name = "gonu"
+    rg_name = "ponu"
   
 }
 
