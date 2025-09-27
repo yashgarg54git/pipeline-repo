@@ -6,27 +6,27 @@ provider "azurerm" {
   
 }
 
-module "rg" {
-    source = "./modules/rg"
-    rg_name = "sonu"
-  
-}
-
-# module "rg1" {
+# module "rg" {
 #     source = "./modules/rg"
-#     rg_name = "monu"
+#     rg_name = "sonu"
   
 # }
 
-# module "rg2" {
+# # module "rg1" {
+# #     source = "./modules/rg"
+# #     rg_name = "monu"
+  
+# # }
+
+# # module "rg2" {
+# #     source = "./modules/rg"
+# #     rg_name = "gonu"
+  
+# # }
+
+# module "rg3" {
 #     source = "./modules/rg"
-#     rg_name = "gonu"
+#     rg_name = "ponu"
   
 # }
-
-module "rg3" {
-    source = "./modules/rg"
-    rg_name = "ponu"
-  
-}
 
