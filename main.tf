@@ -17,3 +17,10 @@ module "rg1" {
     rg_name = "monu"
   
 }
+
+module "rg2" {
+    source = "./modules/rg"
+    rg_name = "gonu"
+  
+}
+
