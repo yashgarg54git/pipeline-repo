@@ -24,9 +24,9 @@ module "rg2" {
   
 }
 
-module "rg3" {
-    source = "./modules/rg"
-    rg_name = "ponu"
+# module "rg3" {
+#     source = "./modules/rg"
+#     rg_name = "ponu"
   
-}
+# }
 
