@@ -33,6 +33,6 @@ jobs:
       - name: Terraform Plan
         run: terraform plan -out=tfplan -input=false
 
-      - name: Terraform Apply (only on main branch push)
+      - name: Terraform Destroy (only on main branch push)
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: terraform apply -input=false tfplan
